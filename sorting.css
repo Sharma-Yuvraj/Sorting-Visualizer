@@ -1,0 +1,76 @@
+.bdy{
+    background-color: #F6F6F6;
+}
+
+.hh{
+    font-size:500%;
+    color:#091353;
+    padding: 0.8rem 0 0.8rem 0;
+    /* font-family: 'Sacramento',cursive; */
+    /* font-weight: 10000; */
+
+}
+.myanimation{
+    display: inline-block;
+    width:2em;
+    /* transition: 1s ease-in-out; */
+    margin-left: 25px;
+}
+@keyframes bar-shorting{
+    from{
+        transform: translateX(0em);
+    }
+    to{
+        transform: translateX(1.35em);
+    }
+}
+.myanimation1{
+    display: inline-block;
+    height: 30px;
+    width: 7%;
+    border-radius: 10px;
+    background-color: rgb(54, 127, 168);
+    animation: bar-shorting 1s ease-in-out 0.5s infinite alternate;
+}
+.myanimation2{
+    display: inline-block;
+    height: 15px;
+    width: 7%;
+    border-radius: 10px;
+    background-color: rgb(54, 127, 168);
+
+    /* background-color: darkgoldenrod */
+}
+.myanimation3{
+    display: inline-block;
+    height: 25px;
+    width: 7%;
+    border-radius: 10px;
+    background-color: rgb(54, 127, 168);
+}
+h5{
+    margin: 0px 0px 0% 0%;
+}
+.range{
+    display :block;
+}
+.size{
+    margin:0px 100px;
+    display:inline-block;
+}
+.speed{
+    display:inline-block;
+}
+.bar_comp{
+    /* border:2px solid rgb(130, 12, 226); */
+    margin:5% auto ;
+    padding:auto 10px;
+    width:95%;
+}
+.buton{
+    margin:1px 7px;
+    transition:1s ease-in-out;
+}
+.buton:hover{
+    transform:scale(1.2);
+}
