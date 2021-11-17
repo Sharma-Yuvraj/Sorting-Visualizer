@@ -51,14 +51,12 @@
 h5{
     margin: 0px 0px 0% 0%;
 }
-.range{
-    display :block;
-}
 .size{
-    margin:0px 100px;
+    margin:5px 20px;
     display:inline-block;
 }
 .speed{
+    margin:5px 20px;
     display:inline-block;
 }
 .bar_comp{
